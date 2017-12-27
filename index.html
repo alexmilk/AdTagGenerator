@@ -20,6 +20,24 @@
     <h1 id="titleText">AdTagGenerator V1.0</h1>
 </div>
 <div id="topHeaderDiv">
+    <div style="width: 60%; height: 50%; padding-top: 10px; margin: 0 auto;">
+    <form class="navbar-form" style="padding: 0px; display: inline" id="formAd">
+        <div class="input-group">
+            <input type="text" class="form-control" id="adTagId" oninput="showReloadWarning()" placeholder="The adtag will appear here" style="width: 854px !important;">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit" onclick="pageFunctions.checkAdTag(document.getElementById('adTagId').value)">
+                    GO!
+                </button>
+            </div>
+        </div>
+    </form>
+    </div>
+    <div style="width: 50%; height: 50%; background-color: red; float: left">
+
+    </div>
+    <div style="width: 50%; height: 50%; background-color: purple; float: right">
+
+    </div>
 </div>
 
 </body>
