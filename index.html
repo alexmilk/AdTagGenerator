@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <title>Ad tag generator - Alex Milkis © 2017</title>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -17,26 +18,29 @@
 <body bgproperties="fixed">
 <div id="topLeftTitle">
     <img src="Images/kaltura_logo_38.gif" style="display: inline;">
-    <h1 id="titleText">AdTagGenerator V1.0</h1>
+    <h1 id="titleText">AdTagGenerator v1.0</h1>
 </div>
 <div id="topHeaderDiv">
-    <div style="width: 60%; height: 50%; padding-top: 10px; margin: 0 auto;">
-    <form class="navbar-form" style="padding: 0px; display: inline" id="formAd">
+    <div style="width: 60%; height: 50%; padding-top: 20px; margin: 0 auto;">
+    <form class="navbar-form" style="padding: 0; display: inline" id="formAd">
         <div class="input-group">
-            <input type="text" class="form-control" id="adTagId" oninput="showReloadWarning()" placeholder="The adtag will appear here" style="width: 854px !important;">
+            <input type="text" class="form-control" id="adTagId" placeholder="The adtag will appear here" style="width: 854px !important;">
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit" onclick="pageFunctions.checkAdTag(document.getElementById('adTagId').value)">
-                    GO!
+                <button class="btn btn-default" type="submit" onclick="copyAdTag(); return false;">
+                    Copy
                 </button>
             </div>
         </div>
     </form>
     </div>
-    <div style="width: 50%; height: 50%; background-color: red; float: left">
+    <div style="width: 60%; height: 50%; margin: 0 auto;">
+    <div style="width: 33%; height: 50%; background-color: red; float: left">
 
     </div>
-    <div style="width: 50%; height: 50%; background-color: purple; float: right">
+    <div style="width: 33%; height: 50%; background-color: purple; float: left">
 
+    </div>
+    <div style="width: 33%; height: 50%; background-color: greenyellow; float: left"></div>
     </div>
 </div>
 
