@@ -10,12 +10,33 @@
     <title>Ad tag generator - Alex Milkis © 2017</title>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="app.js"></script>
+    <script src="plugins/dfpUnits.js"></script>
+    <script src="plugins/vastUnits.js"></script>
+    <script src="plugins/vpaidUnits.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body bgproperties="fixed">
+<script>
+    $(document).ready(function() {
+        let selectors = {
+            adSlot: $("#adSlotSelector"),
+            dfpSlot: $("#dfpSlotSelector"),
+            vpaidSlot: $("#vpaidSlotSelector")
+        };
+        for (let prop in vastSlots) {
+            selectors.adSlot.append("<option value= " + prop + ">" + vastSlots[prop].slotType + "</option>")
+        }
+        for (let prop in dfpSlots) {
+            selectors.dfpSlot.append("<option value= " + prop + ">" + dfpSlots[prop].slotType + "</option>")
+        }
+        for (let prop in vpaidUnits) {
+            selectors.vpaidSlot.append("<option value= " + prop + ">" + vpaidUnits[prop].slotType + "</option>")
+        }
+    });
+</script>
 <div id="topLeftTitle">
     <img src="Images/kaltura_logo_38.gif" style="display: inline;">
     <h1 id="titleText">AdTagGenerator v1.0</h1>
@@ -33,10 +54,20 @@
         </div>
     </form>
     </div>
-    <div style="width: 60%; height: 50%; margin: 0 auto;">
-    <div style="width: 33%; height: 50%; background-color: red; float: left"></div>
-    <div style="width: 33%; height: 50%; background-color: purple; float: left"></div>
-    <div style="width: 33%; height: 50%; background-color: greenyellow; float: left"></div></div>
+    <div style="width: 70%; height: 50%; margin: 0 auto;">
+    <div class="menuCell">
+        <select id="adSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vastPresetSelector" onchange="">
+        </select>
+    </div>
+    <div class="menuCell">
+        <select id="dfpSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="dfpPresetSelector" onchange="">
+        </select>
+    </div>
+    <div class="menuCell">
+        <select id="vpaidSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vpaidPresetSelector" onchange="">
+        </select>
+    </div>
+    </div>
 </div>
 <div style="margin: 0 auto; text-align: center; font-size: x-small; padding-top: 5px">
 <span>Created by Alex Milkis &copy; 2017</span>
