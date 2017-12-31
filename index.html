@@ -47,27 +47,31 @@
         <div class="input-group">
             <input type="text" class="form-control" id="adTagId" placeholder="The adtag will appear here" style="width: 854px !important;">
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit" onclick="copyAdTag(); return false;">
+                <button class="btn btn-success" type="submit" onclick="copyAdTag(); return false;">
                     Copy
                 </button>
             </div>
         </div>
     </form>
+        <hr class="style13" style="display: inherit">
     </div>
-    <div style="width: 70%; height: 50%; margin: 0 auto;">
+    <div style="width: 65%; height: 50%; margin: 0 auto;">
     <div class="menuCell">
-        <select id="adSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vastPresetSelector" onchange="">
+        <span style="display: block">Vast ad tags:</span>
+        <select id="adSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vastPresetSelector" onchange="appendSlot(event)">
         </select>
     </div>
     <div class="menuCell">
-        <select id="dfpSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="dfpPresetSelector" onchange="">
+        <span style="display: block">DFP ad tags:</span>
+        <select id="dfpSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="dfpPresetSelector" onchange="appendSlot(event)">
         </select>
     </div>
     <div class="menuCell">
-        <select id="vpaidSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vpaidPresetSelector" onchange="">
+        <span style="display: block">VPAID ad tags:</span>
+        <select id="vpaidSlotSelector" style="width: 300px !important; display: inline; vertical-align: bottom;" class="form-control" name="vpaidPresetSelector" onchange="appendSlot(event)">
         </select>
     </div>
-    </div>
+</div>
 </div>
 <div style="margin: 0 auto; text-align: center; font-size: x-small; padding-top: 5px">
 <span>Created by Alex Milkis &copy; 2017</span>

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
 body {
     margin: 0;
     padding-top: 120px;
     color: white;
     background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
 }
 #mainControlDiv {
     width: 1125px;
@@ -27,11 +30,14 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
     margin: auto;
     box-sizing: border-box;
+    /*border-top: solid 2px #cccccc;*/
     position: relative;
     display: block;
     z-index: 1;
     padding: 0;
     margin-top: 5px;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 #topLeftTitle {
     width: 1125px;
@@ -42,6 +48,8 @@ body {
     display: block;
     z-index: 2;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 #titleText {
     display: inline;
@@ -54,8 +62,20 @@ body {
     text-align: center;
 }
 .menuCell {
-    width: 33%;
+    width: 25%;
     height: 50%;
-    float: left
+    display: inline-block;
+    text-align: left;
+    float: none;
+    font-family: 'Noto Sans', sans-serif;
 
+
+}
+hr.style13 {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, #f0f0f000, #bbbbbb82, #f0f0f000);
+    background-image: -moz-linear-gradient(left, #f0f0f000, #bbbbbb82, #f0f0f000);
+    background-image: -ms-linear-gradient(left,#f0f0f000, #bbbbbb82, #f0f0f000);
+    background-image: -o-linear-gradient(left, #f0f0f000, #bbbbbb82, #f0f0f000);
 }
