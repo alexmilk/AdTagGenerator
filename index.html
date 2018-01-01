@@ -37,10 +37,12 @@
             selectors.vpaidSlot.append("<option value= " + prop + ">" + vpaidUnits[prop].slotType + "</option>")
         }
         $('#topLeftTitle').slideDown(400);
+        $('#bottomCredit').slideDown(400);
+
     });
 </script>
-<div id="topLeftTitle">
-    <img src="Images/kaltura_logo_38.gif" style="display: inline;">
+<div id="topLeftTitle" class="logoStamp">
+    <img src="Images/kal_logo_transparent.png" style="width: 30px; height: 30px;">
     <h1 id="titleText">AdTagGenerator v1.0</h1>
 </div>
 <div class="center" id="topHeaderDiv">
@@ -79,9 +81,8 @@
     </div>
 </div>
 </div>
-<div style="margin: 0 auto; text-align: center; font-size: x-small; padding-top: 5px">
-    <span>Created by Alex Milkis &copy; 2017</span>
-</div>
+<div id="bottomCredit" class="stamp" onclick="window.open('https://github.com/alexmilk');">
+   <span>Created by Alex Milkis &copy; 2017</span></div>
 
 </body>
 </html>
