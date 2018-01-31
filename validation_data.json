@@ -1,0 +1,28 @@
+{
+  "dataVersion" : 1,
+  "url" : "https:\/\/cdnapisec.kaltura.com\/p\/1955031\/sp\/0\/playManifest\/entryId\/1_euc6kkke\/format\/applehttp\/referrer\/bW9iaWxlLnlsZS5maQ==\/protocol\/https\/1_1vqowwtj.m3u8",
+  "messages" : [
+    {
+      "errorParserCode" : -12269,
+      "errorComment" : "Missing #EXTM3U",
+      "errorStatusCode" : -12646,
+      "errorParserLine" : ""
+    },
+    {
+      "errorStatusCode" : -1,
+      "errorComment" : "Illegal MIME type",
+      "errorDetail" : "MIME type: (null)"
+    }
+  ],
+  "dataID" : 0,
+  "validatorVersion" : "1.1(151117)",
+  "sslHosts" : {
+    "https:\/\/cdnapisec.kaltura.com" : {
+      "sslNegotiatedProtocolVersion" : 8,
+      "sslNegotiatedCipher" : 49200,
+      "sslRSAKeySizeInBits" : 2048
+    }
+  },
+  "validatorTimestamp" : "2018-01-28T12:17:56+02:00",
+  "playlistKind" : "media"
+}
