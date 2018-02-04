@@ -1,28 +1,2048 @@
 {
-  "dataVersion" : 1,
-  "url" : "https:\/\/cdnapisec.kaltura.com\/p\/1955031\/sp\/0\/playManifest\/entryId\/1_euc6kkke\/format\/applehttp\/referrer\/bW9iaWxlLnlsZS5maQ==\/protocol\/https\/1_1vqowwtj.m3u8",
+  "processedSegmentsCount" : 121,
+  "url" : "https:\/\/klive-a.akamaihd.net\/dc-1\/live\/hls\/p\/1955031\/e\/1_h2323itv\/sd\/6000\/t\/qusfQKGAIY5TyoSjtoL6fg\/index-s33.m3u8",
+  "hasDiscSequenceTag" : false,
   "messages" : [
     {
-      "errorParserCode" : -12269,
-      "errorComment" : "Missing #EXTM3U",
-      "errorStatusCode" : -12646,
-      "errorParserLine" : ""
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
     },
     {
-      "errorStatusCode" : -1,
-      "errorComment" : "Illegal MIME type",
-      "errorDetail" : "MIME type: (null)"
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
+    },
+    {
+      "errorParserCode" : -12268,
+      "errorComment" : "#EXT-X-ALLOW-CACHE has been deprecated",
+      "errorStatusCode" : 0,
+      "errorParserLine" : "#EXT-X-ALLOW-CACHE:YES"
     }
   ],
-  "dataID" : 0,
-  "validatorVersion" : "1.1(151117)",
+  "meanSegmentCount" : 96,
+  "measuredMeanBitrate" : 502695,
+  "parsedSegmentsCount" : 121,
   "sslHosts" : {
-    "https:\/\/cdnapisec.kaltura.com" : {
+    "https:\/\/klive-a.akamaihd.net" : {
       "sslNegotiatedProtocolVersion" : 8,
-      "sslNegotiatedCipher" : 49200,
-      "sslRSAKeySizeInBits" : 2048
+      "sslNegotiatedCipher" : 49196,
+      "sslECKeyECNamedCurve" : 23
     }
   },
-  "validatorTimestamp" : "2018-01-28T12:17:56+02:00",
-  "playlistKind" : "media"
+  "validatorTimestamp" : "2018-02-01T17:20:58+02:00",
+  "hasEndTag" : false,
+  "validatorVersion" : "1.1(151117)",
+  "meanTotalDuration" : 577.98692307692249,
+  "measuredMaxBitrate" : 1321339,
+  "independentSegments" : false,
+  "playlistKind" : "media",
+  "sslContentDeliveredSecurely" : true,
+  "discontinuities" : [
+    {
+      "segments" : [
+        {
+          "segmentDurationTag" : 4.5499999999999998,
+          "mediaSequence" : 95135487,
+          "dataID" : 1,
+          "url" : "seg-95135487-s33-v1-a1.ts",
+          "segmentByteRangeLength" : 0,
+          "messages" : [
+            {
+              "errorStatusCode" : -1,
+              "errorComment" : "Playlist vs segment duration mismatch",
+              "errorDetail" : "Segment duration 4.0000, Playlist duration: 4.5500"
+            }
+          ],
+          "videoStartsWithIDR" : true,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "discontinuityDomain" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135488-s33-v1-a1.ts",
+          "dataID" : 2,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135488,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135489-s33-v1-a1.ts",
+          "dataID" : 3,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135489,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135490-s33-v1-a1.ts",
+          "dataID" : 4,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135490,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135491-s33-v1-a1.ts",
+          "dataID" : 5,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135491,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135492-s33-v1-a1.ts",
+          "dataID" : 6,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135492,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135493-s33-v1-a1.ts",
+          "dataID" : 7,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135493,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135494-s33-v1-a1.ts",
+          "dataID" : 8,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135494,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135495-s33-v1-a1.ts",
+          "dataID" : 9,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135495,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135496-s33-v1-a1.ts",
+          "dataID" : 10,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135496,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135497-s33-v1-a1.ts",
+          "dataID" : 11,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135497,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135498-s33-v1-a1.ts",
+          "dataID" : 12,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135498,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135499-s33-v1-a1.ts",
+          "dataID" : 13,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135499,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135500,
+          "dataID" : 14,
+          "url" : "seg-95135500-s33-v1-a1.ts",
+          "segmentByteRangeLength" : 0,
+          "messages" : [
+            {
+              "errorStatusCode" : -1,
+              "errorComment" : "Framerate change without discontinuity tag detected"
+            }
+          ],
+          "videoStartsWithIDR" : true,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "discontinuityDomain" : 0
+        },
+        {
+          "segmentDurationTag" : 6.7599999999999998,
+          "mediaSequence" : 95135501,
+          "dataID" : 15,
+          "url" : "seg-95135501-s33-v1-a1.ts",
+          "segmentByteRangeLength" : 0,
+          "messages" : [
+            {
+              "errorStatusCode" : -1,
+              "errorComment" : "Framerate change without discontinuity tag detected"
+            }
+          ],
+          "videoStartsWithIDR" : true,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0,
+          "videoFrameRate" : 18.639053254437869,
+          "segmentCryptMethod" : "NONE",
+          "discontinuityDomain" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135502-s33-v1-a1.ts",
+          "dataID" : 16,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135502,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135503-s33-v1-a1.ts",
+          "dataID" : 17,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135503,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135504-s33-v1-a1.ts",
+          "dataID" : 18,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135504,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135505-s33-v1-a1.ts",
+          "dataID" : 19,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135505,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135506-s33-v1-a1.ts",
+          "dataID" : 20,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135506,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135507-s33-v1-a1.ts",
+          "dataID" : 21,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135507,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135508-s33-v1-a1.ts",
+          "dataID" : 22,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135508,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135509-s33-v1-a1.ts",
+          "dataID" : 23,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135509,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135510-s33-v1-a1.ts",
+          "dataID" : 24,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135510,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135511-s33-v1-a1.ts",
+          "dataID" : 25,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135511,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135512-s33-v1-a1.ts",
+          "dataID" : 26,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135512,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135513-s33-v1-a1.ts",
+          "dataID" : 27,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135513,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135514-s33-v1-a1.ts",
+          "dataID" : 28,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135514,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135515-s33-v1-a1.ts",
+          "dataID" : 29,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135515,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135516-s33-v1-a1.ts",
+          "dataID" : 30,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135516,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135517-s33-v1-a1.ts",
+          "dataID" : 31,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135517,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135518-s33-v1-a1.ts",
+          "dataID" : 32,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135518,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135519-s33-v1-a1.ts",
+          "dataID" : 33,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135519,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135520-s33-v1-a1.ts",
+          "dataID" : 34,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135520,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135521-s33-v1-a1.ts",
+          "dataID" : 35,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135521,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135522-s33-v1-a1.ts",
+          "dataID" : 36,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135522,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135523-s33-v1-a1.ts",
+          "dataID" : 37,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135523,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135524-s33-v1-a1.ts",
+          "dataID" : 38,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135524,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135525-s33-v1-a1.ts",
+          "dataID" : 39,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135525,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135526-s33-v1-a1.ts",
+          "dataID" : 40,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135526,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135527-s33-v1-a1.ts",
+          "dataID" : 41,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135527,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135528-s33-v1-a1.ts",
+          "dataID" : 42,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135528,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135529-s33-v1-a1.ts",
+          "dataID" : 43,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135529,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135530-s33-v1-a1.ts",
+          "dataID" : 44,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135530,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135531-s33-v1-a1.ts",
+          "dataID" : 45,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135531,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135532-s33-v1-a1.ts",
+          "dataID" : 46,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135532,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135533-s33-v1-a1.ts",
+          "dataID" : 47,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135533,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135534-s33-v1-a1.ts",
+          "dataID" : 48,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135534,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135535-s33-v1-a1.ts",
+          "dataID" : 49,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135535,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135536-s33-v1-a1.ts",
+          "dataID" : 50,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135536,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135537-s33-v1-a1.ts",
+          "dataID" : 51,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135537,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135538-s33-v1-a1.ts",
+          "dataID" : 52,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135538,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135539-s33-v1-a1.ts",
+          "dataID" : 53,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135539,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135540-s33-v1-a1.ts",
+          "dataID" : 54,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135540,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135541-s33-v1-a1.ts",
+          "dataID" : 55,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135541,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135542-s33-v1-a1.ts",
+          "dataID" : 56,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135542,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135543-s33-v1-a1.ts",
+          "dataID" : 57,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135543,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135544-s33-v1-a1.ts",
+          "dataID" : 58,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135544,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135545-s33-v1-a1.ts",
+          "dataID" : 59,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135545,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135546-s33-v1-a1.ts",
+          "dataID" : 60,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135546,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135547-s33-v1-a1.ts",
+          "dataID" : 61,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135547,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135548-s33-v1-a1.ts",
+          "dataID" : 62,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135548,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135549-s33-v1-a1.ts",
+          "dataID" : 63,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135549,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135550-s33-v1-a1.ts",
+          "dataID" : 64,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135550,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135551-s33-v1-a1.ts",
+          "dataID" : 65,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135551,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135552-s33-v1-a1.ts",
+          "dataID" : 66,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135552,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135553-s33-v1-a1.ts",
+          "dataID" : 67,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135553,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135554-s33-v1-a1.ts",
+          "dataID" : 68,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135554,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135555-s33-v1-a1.ts",
+          "dataID" : 69,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135555,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135556-s33-v1-a1.ts",
+          "dataID" : 70,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135556,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135557-s33-v1-a1.ts",
+          "dataID" : 71,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135557,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135558-s33-v1-a1.ts",
+          "dataID" : 72,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135558,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135559-s33-v1-a1.ts",
+          "dataID" : 73,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135559,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135560-s33-v1-a1.ts",
+          "dataID" : 74,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135560,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135561-s33-v1-a1.ts",
+          "dataID" : 75,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135561,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135562-s33-v1-a1.ts",
+          "dataID" : 76,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135562,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135563-s33-v1-a1.ts",
+          "dataID" : 77,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135563,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135564-s33-v1-a1.ts",
+          "dataID" : 78,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135564,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135565-s33-v1-a1.ts",
+          "dataID" : 79,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135565,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135566-s33-v1-a1.ts",
+          "dataID" : 80,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135566,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135567-s33-v1-a1.ts",
+          "dataID" : 81,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135567,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135568-s33-v1-a1.ts",
+          "dataID" : 82,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135568,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135569-s33-v1-a1.ts",
+          "dataID" : 83,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135569,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135570-s33-v1-a1.ts",
+          "dataID" : 84,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135570,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135571-s33-v1-a1.ts",
+          "dataID" : 85,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135571,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135572-s33-v1-a1.ts",
+          "dataID" : 86,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135572,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135573-s33-v1-a1.ts",
+          "dataID" : 87,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135573,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135574-s33-v1-a1.ts",
+          "dataID" : 88,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135574,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135575-s33-v1-a1.ts",
+          "dataID" : 89,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135575,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135576-s33-v1-a1.ts",
+          "dataID" : 90,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135576,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135577-s33-v1-a1.ts",
+          "dataID" : 91,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135577,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135578-s33-v1-a1.ts",
+          "dataID" : 92,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135578,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135579-s33-v1-a1.ts",
+          "dataID" : 93,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135579,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135580-s33-v1-a1.ts",
+          "dataID" : 94,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135580,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135581-s33-v1-a1.ts",
+          "dataID" : 95,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135581,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135582-s33-v1-a1.ts",
+          "dataID" : 96,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135582,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135583-s33-v1-a1.ts",
+          "dataID" : 97,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135583,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135584-s33-v1-a1.ts",
+          "dataID" : 98,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135584,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135585-s33-v1-a1.ts",
+          "dataID" : 99,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135585,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135586-s33-v1-a1.ts",
+          "dataID" : 100,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135586,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135587-s33-v1-a1.ts",
+          "dataID" : 101,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135587,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135588-s33-v1-a1.ts",
+          "dataID" : 102,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135588,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135589-s33-v1-a1.ts",
+          "dataID" : 103,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135589,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135590-s33-v1-a1.ts",
+          "dataID" : 104,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135590,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135591-s33-v1-a1.ts",
+          "dataID" : 105,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135591,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135592-s33-v1-a1.ts",
+          "dataID" : 106,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135592,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135593-s33-v1-a1.ts",
+          "dataID" : 107,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135593,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135594-s33-v1-a1.ts",
+          "dataID" : 108,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135594,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135595-s33-v1-a1.ts",
+          "dataID" : 109,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135595,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135596-s33-v1-a1.ts",
+          "dataID" : 110,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135596,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135597-s33-v1-a1.ts",
+          "dataID" : 111,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135597,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135598-s33-v1-a1.ts",
+          "dataID" : 112,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135598,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135599-s33-v1-a1.ts",
+          "dataID" : 113,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135599,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135600-s33-v1-a1.ts",
+          "dataID" : 114,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135600,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135601-s33-v1-a1.ts",
+          "dataID" : 115,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135601,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135602-s33-v1-a1.ts",
+          "dataID" : 116,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135602,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135603-s33-v1-a1.ts",
+          "dataID" : 117,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135603,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135604-s33-v1-a1.ts",
+          "dataID" : 118,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135604,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135605-s33-v1-a1.ts",
+          "dataID" : 119,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135605,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135606-s33-v1-a1.ts",
+          "dataID" : 120,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135606,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        },
+        {
+          "discontinuityDomain" : 0,
+          "segmentByteRangeLength" : 0,
+          "url" : "seg-95135607-s33-v1-a1.ts",
+          "dataID" : 121,
+          "videoFrameRate" : 25,
+          "segmentCryptMethod" : "NONE",
+          "videoStartsWithIDR" : true,
+          "segmentDurationTag" : 6,
+          "mediaSequence" : 95135607,
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0
+        }
+      ],
+      "measurements" : {
+        "measuredMaxBitrate" : 1321339.6449704142,
+        "measuredMeanBitrate" : 502695.68598254543
+      },
+      "tracks" : [
+        {
+          "trackMediaType" : "\u0000\u0000\u0000\u0000",
+          "trackMediaSubType" : "id3 ",
+          "trackId" : 3
+        },
+        {
+          "trackVideoIDRStandardDeviation" : 0.039944559917916164,
+          "trackId" : 1,
+          "trackVideoWidth" : 480,
+          "trackVideoLevel" : 30,
+          "trackVideoHeight" : 270,
+          "trackMediaType" : "vide",
+          "trackVideoIDRInterval" : 2.0021052631578948,
+          "trackVideoIsInterlaced" : false,
+          "trackVideoProfile" : 66,
+          "trackMediaSubType" : "avc1"
+        },
+        {
+          "trackMediaType" : "soun",
+          "trackAudioChannelCount" : 2,
+          "trackId" : 2,
+          "trackAudioSampleRate" : 48000,
+          "trackMediaSubType" : "aac ",
+          "trackAudioChannelLayout" : "Stereo (L R)"
+        }
+      ]
+    }
+  ],
+  "dataVersion" : 1,
+  "playlistTargetDuration" : 7,
+  "gzipEncoded" : true,
+  "dataID" : 0
 }

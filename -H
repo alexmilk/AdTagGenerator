@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Me: ny-front-api32
+X-Kaltura: cached-dispatcher,playManifest-b3e420175703b363afd6cf3176efc963,0.00040078163146973
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Server,range,Content-Length,Content-Range
+Content-Type: application/x-mpegurl
+Expires: Sun, 04 Feb 2018 10:18:49 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 04 Feb 2018 10:18:49 GMT
+Connection: keep-alive
+
