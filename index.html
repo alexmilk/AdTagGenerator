@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- A standalone ad tag generator, can be used as a simple tool to generate different types of ad units -->
 <!-- Version 1.1 -->
-<!-- Copyright(c) 2017 Alex Milkis <alex.milkis@kaltura.com> -->
+<!-- Copyright(c) 2018 Alex Milkis <alex.milkis@kaltura.com> -->
 <!-- MIT Licensed. http://www.opensource.org/licenses/mit-license.php -->
 <!-- https://github.com/alexmilk -->
 <head>
@@ -44,16 +44,16 @@
 </script>
 <div id="topLeftTitle" class="logoStamp">
     <img src="Images/kal_logo_transparent.png" style="width: 30px; height: 30px;">
-    <h1 id="titleText">AdTagGenerator v1.0</h1>
+    <h1 id="titleText">kAdTag Generator</h1>
 </div>
 <div class="center" id="topHeaderDiv">
-    <div style="width: 60%; height: 50%; padding-top: 20px; margin: 0 auto;">
+    <div style="width: 60%; height: 40%; padding-top: 20px; margin: 0 auto;">
     <form class="navbar-form" style="padding: 0; display: inline" id="formAd">
         <div class="input-group">
             <input type="text" class="form-control" id="adTagId" placeholder="The adtag will appear here" style="width: 854px !important;">
             <div class="input-group-btn">
                 <button class="btn btn-success" type="submit" onclick="copyAdTag(); return false;">
-                    Copy
+                    Copy me!
                 </button>
             </div>
         </div>
@@ -61,6 +61,7 @@
         <hr class="style13" style="display: inherit">
     </div>
     <div style="width: 65%; height: 50%; margin: 0 auto;">
+        <!-- Adtag type selector menus -->
         <div class="menuCell">
             <span style="display: block">Vast ad tags:</span>
             <select id="adSlotSelector" style="width: 220px !important; display: inline; vertical-align: bottom;" class="form-control" name="vastPresetSelector" onchange="appendVastSlot(event)">
@@ -82,6 +83,7 @@
         <br>
         <hr class="style13" style="display: inherit; margin-top: 15px !important; margin-bottom: 2px !important;">
         <div id="quickLinks" style="width: 65%; height: 50%; margin: 0 auto;">
+            <!-- Add affiliate test tool icons -->
             <span style="display: block;">Quick links</span>
         </div>
 </div>

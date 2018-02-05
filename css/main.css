@@ -43,7 +43,7 @@ body {
 }
 #topHeaderDiv {
     width: 100%;
-    height: auto;
+    height: 210px;
     z-index: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0.1);
     background: rgb(238,238,238);
@@ -79,7 +79,7 @@ body {
     text-align: left;
     float: none;
     font-family: 'Noto Sans', sans-serif;
-    margin-left: 12px;
+    margin-left: 32px;
 
 
 }
