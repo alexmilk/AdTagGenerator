@@ -5,6 +5,7 @@ body {
     padding-top: 200px;
     color: white;
     background-attachment: fixed;
+    background-color: white !important;
     font-family: 'Noto Sans', sans-serif;
 
 }
