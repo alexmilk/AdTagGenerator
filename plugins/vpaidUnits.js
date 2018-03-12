@@ -21,5 +21,10 @@ const vpaidUnits = {
     tremorVpaid: {
         "slotType": "TremorVideo VAST 2.0 VPAID Linear",
         "adTagUrl": "http://demo.tremorvideo.com/proddev/vast/vast2VPAIDLinear.xml"
+    },
+    yumeVpaid: {
+        "slotType": "YuMe VPAID - Flash engine only",
+        "adTagUrl": "http://shadowcdn-01.yumenetworks.com/ym/1B3uA91O2152/1349/HifvrHol/vpaid_as3.xml"
     }
 };
+
