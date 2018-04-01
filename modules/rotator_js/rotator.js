@@ -56,4 +56,9 @@
 			},
 			debug: false
 		};
+				// the rotators config based on passed in options
+		var config = $.extend({}, defaults, options || {});
+
+		// will hold the Rotator object
+		var base = this;
 	}())
