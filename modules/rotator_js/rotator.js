@@ -61,4 +61,16 @@
 
 		// will hold the Rotator object
 		var base = this;
+
+		// jQuery object vars available
+		base.config = config;
+		base.element;
+		base.slides;
+		base.nav;
+
+		// holds the setInterval
+		var timer = false;
+
+		// holds the current slide
+		var current
 	}())
