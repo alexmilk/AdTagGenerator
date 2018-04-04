@@ -72,5 +72,18 @@
 		var timer = false;
 
 		// holds the current slide
-		var current
+		var current;
+			// the initiation of the rotator. gets all the slides, assigns classes, and adds nav
+		var init = function () {
+			// get the rotator element
+			base.element = $(element).eq(0);
+			base.id = base.element[0].id || base.element.attr({ id: (Date.now() + 1).toString(36) })[0].id;
+
+			// get the slides
+			base.slides = base.element.find(config.slideClass);
+
+			// if starting random, generate a num
+			if (config.random == true) {
+				config.first = (Math.floor(Math.random() * 100) % base.slides.length) + 1;
+			}
 	}())
