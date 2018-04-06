@@ -86,4 +86,12 @@
 			if (config.random == true) {
 				config.first = (Math.floor(Math.random() * 100) % base.slides.length) + 1;
 			}
+			// add the slide numbers
+			var i = config.first,
+				tmpSlides = [];
+			base.slides.each(function () {
+				if (i > base.slides.length) { i = 1; }
+				tmpSlides[i - 1] = $(this).attr(config.slideIdAttr, i).addClass(config.slideNumClass.replace(/\#/, i).replace(/\./, ''))[0];
+				i++;
+			});
 	}())
