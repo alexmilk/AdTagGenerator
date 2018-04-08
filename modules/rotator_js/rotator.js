@@ -94,4 +94,19 @@
 				tmpSlides[i - 1] = $(this).attr(config.slideIdAttr, i).addClass(config.slideNumClass.replace(/\#/, i).replace(/\./, ''))[0];
 				i++;
 			});
+			// slides DOM reordering
+			if (config.reorderSlides == true && config.random == true) {
+				base.slides.remove();
+				base.element.append(tmpSlides);
+			}
+
+			// recollect
+			base.slides = $(tmpSlides);
+			current = base.slides.eq(0).css({ zIndex: config.zIndex });
+			
+			// slides clicking event
+			base.slides.find('a').click(function (e) {
+				base.runEvent('onClick', { event: e });
+			});
+
 	}())
