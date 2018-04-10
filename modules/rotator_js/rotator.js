@@ -108,5 +108,18 @@
 			base.slides.find('a').click(function (e) {
 				base.runEvent('onClick', { event: e });
 			});
+			// copy any transitions that are added
+			config.transitions = $.extend(base.transitions, config.transitions);
+
+			// add the nav
+			if (!!config.nav && base.slides.length > 1) {
+				buildNav();
+			}
+
+			// attach the Rotator to its element
+			base.element.data('rotator', base);
+
+			// init event
+			base.runEvent('onInit');
 
 	}())
