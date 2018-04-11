@@ -121,5 +121,24 @@
 
 			// init event
 			base.runEvent('onInit');
+			// when the first slide is done loading, show the rotator.
+			var loadFn = function () {
+				config.rotatorLoaded = true;
+				base.element.removeClass(config.loadingClassName);
 
+				config.events.onLoadDefault = function() {
+					current.fadeIn(500);
+
+					// fade in the nav
+					if (base.nav) {
+						base.nav.fadeIn();
+					}
+				};
+				// if no onLoad event, run default loading event
+				if (!options.events) {
+					config.events.onLoadDefault();
+				}
+				else if (!options.events.onLoad) {
+					config.events.onLoadDefault();
+				};
 	}())
