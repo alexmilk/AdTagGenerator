@@ -92,7 +92,7 @@ hr.style13 {
     background-image: -ms-linear-gradient(left,#f0f0f000, #bbbbbb82, #f0f0f000);
     background-image: -o-linear-gradient(left, #f0f0f000, #bbbbbb82, #f0f0f000);
 }
-.stamp {
+.footer {
     margin: -4px auto;
     text-align: center;
     font-size: x-small;
@@ -100,7 +100,7 @@ hr.style13 {
     padding: 13px;
     z-index: 0;
     width: 250px;
-    height: 30px;
+    height: 38px;
     background-color: #ADD4DB;
     /* border: 1px dashed #ffffff; */
     line-height: 2px;

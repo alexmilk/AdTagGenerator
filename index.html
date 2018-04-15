@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- A standalone ad tag generator, can be used as a simple tool to generate different types of ad units -->
+<!-- A standalone ad tag generator, can be used independently to generate different types of ad tags -->
 <!-- Version 1.4 -->
 <!-- Copyright(c) 2018 Alex Milkis <alex.milkis@kaltura.com> -->
 <!-- MIT Licensed. http://www.opensource.org/licenses/mit-license.php -->
@@ -20,32 +20,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body bgproperties="fixed">
-<div id="ribbonBeta" class="corner-ribbon top-left sticky red shadow" style="display: none">BETA Version 1.4</div>
-<script>
-    //Site ready functions and menu looping scripts.
-    $(document).ready(function() {
-        $('#ribbonBeta').slideDown(900);
-        let selectors = {
-            adSlot: $("#adSlotSelector"),
-            dfpSlot: $("#dfpSlotSelector"),
-            vpaidSlot: $("#vpaidSlotSelector")
-        };
-        for (let prop in vastSlots) {
-            selectors.adSlot.append("<option value= " + prop + ">" + vastSlots[prop].slotType + "</option>")
-        }
-        for (let prop in dfpSlots) {
-            selectors.dfpSlot.append("<option value= " + prop + ">" + dfpSlots[prop].slotType + "</option>")
-        }
-        for (let prop in vpaidUnits) {
-            selectors.vpaidSlot.append("<option value= " + prop + ">" + vpaidUnits[prop].slotType + "</option>")
-        }
-        $('#topLeftTitle').slideDown(900);
-        $('#bottomCredit').slideDown(900);
-    });
-</script>
+<div id="ribbonBeta" class="corner-ribbon top-left sticky red shadow" style="display: none">Test version!</div>
 <div id="topLeftTitle" class="logoStamp">
     <img src="Images/kal_logo_transparent.png" style="width: 30px; height: 30px;">
-    <h1 id="titleText">kAdTag Generator</h1>
+    <h1 id="titleText">AdTag Generator</h1>
 </div>
 <div class="center" id="topHeaderDiv">
     <div style="width: 60%; height: 40%; padding-top: 20px; margin: 0 auto;">
@@ -92,7 +70,15 @@
         </div>
 </div>
 </div>
-<div id="bottomCredit" class="stamp" onclick="window.open('https://github.com/alexmilk');">
-   <span>Created by Alex Milkis &copy; 2018</span></div>
+<div id="bottomCredit" class="footer" onclick="window.open('https://github.com/alexmilk');">
+   <span>Created by Alex Milkis &copy; 2018 |     <a href="https://github.com/alexmilk">
+        <img src="images/white-github-256.png" width="16px"/>
+    </a> |
+    <a href="https://www.linkedin.com/in/alex-milkis-64075189/">
+        <img src="images/white-linkedin-256.png" width="16px"/>
+    </a> |
+    <a href="mailto: alexedm88@gmail.com">
+        <img src="images/white-new-post-256.png" width="16px"/>
+    </a></span></div>
 </body>
 </html>
