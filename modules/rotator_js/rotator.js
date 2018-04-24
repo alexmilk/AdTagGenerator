@@ -141,4 +141,23 @@
 				else if (!options.events.onLoad) {
 					config.events.onLoadDefault();
 				};
+						if (HAS_FILTER) return (function() {
+		
+			img.style.filter = [
+				'progid:DXImageTransform.Microsoft.Matrix(M11="',
+					cos,
+				'", M12="',
+					-sin,
+				'", M21="',
+					sin,
+				'", M22="',
+					cos,
+				'", sizingMethod="auto expand")'
+			].join('');
+			
+		})();
+		
+	};
+	
+})();
 	}())
