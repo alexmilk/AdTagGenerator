@@ -1,0 +1,840 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Kitchen Sink</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+    <!-- page style -->
+    <style>
+        /* navigation */
+        ul.nav-tabs {
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        ul.nav-tabs li {
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        ul.nav-tabs li:first-child {
+            border-top: none;
+        }
+        ul.nav-tabs li a {
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        ul.nav-tabs li:first-child a {
+            border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a {
+            border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix {
+            top: 30px; /* Set the top position of pinned element */
+        }
+
+        /* cytoscape graph */
+        .cy {
+            height: 400px;
+            background-color: #f9f9f9;
+        }
+    </style>
+
+    <!-- code highlighter -->
+    <style>
+        .javascript .comment, .ruby .comment {
+            color : green;
+        }
+
+        .javascript .string, .ruby .string {
+            color : teal;
+        }
+
+        .javascript .keywords, .ruby .keywords {
+            color : navy;
+        }
+
+        .javascript .global {
+            color : blue;
+        }
+
+        .javascript .brackets, .ruby .brackets {
+            color : navy;
+        }
+
+        .css .comment {
+            color : gray;
+        }
+
+        .css .properties {
+            color : navy;
+        }
+
+        .css .selectors {
+            color : maroon;
+            font-weight : bold;
+        }
+
+        .css .units {
+            color :red;
+        }
+
+        .css .urls {
+            color :green;
+        }
+
+        .html .tag {
+            color : purple;
+        }
+
+        .html .comment {
+            color : gray;
+            font-style: italic;
+        }
+
+        .html .string {
+            color : navy;
+        }
+
+        .html .doctype {
+            color : teal;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#tutorial-menu">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Kitchen Sink</h1>
+        </div>
+
+        <div id="tutorial-content" class="row">
+            <div id="tutorial-menu" class="col-md-2">
+                <ul class="nav nav-tabs nav-stacked affix-top" data-spy="affix" data-offset-top="230">
+                    <li class="active"><a href="#default">Default</a></li>
+                    <li><a href="#simple">Simple</a></li>
+                    <li><a href="#grouped">Grouped</a></li>
+                    <li><a href="#positioning">Positioning</a></li>
+                    <li><a href="#options">Tool Options</a></li>
+                </ul>
+            </div>
+            <div id="tutorials" class="col-md-10">
+                <div id="tutorial-sections" class="col-md-7 col-md-offset-1">
+                    <!-- default -->
+                    <h2 id="default">Default</h2>
+                    <p>This is the default configuration that comes built in to the plugin.  It gives you the ability to pan and zoom.</p>
+                    <div id="cy-default" class="row cy"></div>
+                    <h4>Code</h4>
+                    <h6>HTML</h6>
+                    <pre><code class="html">
+    &lt;div id="cy-default" class="row cy"&gt;&lt;/div&gt;
+                    </code></pre>
+                    <h6>Javascript</h6>
+                    <pre><code class="javascript">
+    var cyDefault = window.cyDefault = cytoscape({
+        container: document.getElementById('cy-default'),
+
+        ready: function () {
+            cyDefault.toolbar();
+        },
+
+        // removed for brevity
+    });
+                    </code></pre>
+                    <!-- simple -->
+                    <h2 id="simple">Simple</h2>
+                    <p>This is a simple toolbar that will add one extra tool to the toolbar.</p>
+                    <div id="cy-simple" class="row cy"></div>
+                    <h4>Code</h4>
+                    <h6>HTML</h6>
+                    <pre><code class="html">
+    &lt;div id="cy-simple" class="row cy"&gt;&lt;/div&gt;
+                    </code></pre>
+                    <h6>Javascript</h6>
+                    <pre><code class="javascript">
+    var cySimple = window.cySimple = cytoscape({
+        container: document.getElementById('cy-simple'),
+
+        ready: function () {
+            cySimple.toolbar({
+                toolbarClass: "cy-simple-toolbar",
+                tools: [
+                    [
+                        {
+                            icon: 'fa fa-link',
+                            event: ['tap'],
+                            selector: 'node',
+                            bubbleToCore: false,
+                            tooltip: 'Link',
+                            action: [performLink]
+                        }
+                    ]
+                ],
+                appendTools: true
+            });
+        },
+
+        // removed for brevity
+    });
+                    </code></pre>
+                    <!-- grouped -->
+                    <h2 id="grouped">Grouped Tools</h2>
+                    <p>An example to group tools into one space on the toolbar.</p>
+                    <div id="cy-grouped" class="row cy"></div>
+                    <h4>Code</h4>
+                    <h6>HTML</h6>
+                    <pre><code class="html">
+    &lt;div id="cy-grouped" class="row cy"&gt;&lt;/div&gt;
+                    </code></pre>
+                    <h6>Javascript</h6>
+                    <pre><code class="javascript">
+    var cyGrouped = window.cyGrouped = cytoscape({
+        container: document.getElementById('cy-grouped'),
+
+        ready: function () {
+            cyGrouped.toolbar({
+                toolbarClass: "cy-grouped-toolbar",
+                tools: [
+                    [
+                        {
+                            icon: 'fa fa-search-plus',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    zoom: 0.1,
+                                    minZoom: 0.1,
+                                    maxZoom: 10,
+                                    zoomDelay: 45
+                                }
+                            },
+                            bubbleToCore: false,
+                            tooltip: 'Zoom In',
+                            action: [performZoomIn]
+                        },
+                        {
+                            icon: 'fa fa-search-minus',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    zoom: -0.1,
+                                    minZoom: 0.1,
+                                    maxZoom: 10,
+                                    zoomDelay: 45
+                                }
+                            },
+                            bubbleToCore: false,
+                            tooltip: 'Zoom Out',
+                            action: [performZoomOut]
+                        }
+                    ],
+                    [
+                        {
+                            icon: 'fa fa-arrow-right',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    distance: -80,
+                                }
+                            },
+                            bubbleToCore: true,
+                            tooltip: 'Pan Right',
+                            action: [performPanRight]
+                        },
+                        {
+                            icon: 'fa fa-arrow-down',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    distance: -80,
+                                }
+                            },
+                            bubbleToCore: true,
+                            tooltip: 'Pan Down',
+                            action: [performPanDown]
+                        },
+                        {
+                            icon: 'fa fa-arrow-left',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    distance: 80,
+                                }
+                            },
+                            bubbleToCore: true,
+                            tooltip: 'Pan Left',
+                            action: [performPanLeft]
+                        },
+                        {
+                            icon: 'fa fa-arrow-up',
+                            event: ['tap'],
+                            selector: 'cy',
+                            options: {
+                                cy: {
+                                    distance: 80,
+                                }
+                            },
+                            bubbleToCore: true,
+                            tooltip: 'Pan Up',
+                            action: [performPanUp]
+                        }
+                    ]
+                ],
+                appendTools: false
+            });
+        },
+
+        // removed for brevity
+    });
+                    </code></pre>
+                    <!-- positioning -->
+                    <h2 id="positioning">Positioning</h2>
+                    <p>This will set the position of the toolbar in relation to the cytoscape instance.</p>
+                    <div id="cy-position" class="row cy"></div>
+                    <h4>Code</h4>
+                    <h6>HTML</h6>
+                    <pre><code class="html">
+    &lt;div id="cy-position" class="row cy"&gt;&lt;/div&gt;
+                    </code></pre>
+                    <h6>Javascript</h6>
+                    <pre><code class="javascript">
+    var cyPosition = window.cyPosition = cytoscape({
+        container: document.getElementById('cy-position'),
+
+        ready: function () {
+            cyPosition.toolbar({
+                toolbarClass: "cy-position-toolbar",
+                position: 'right'
+            });
+
+            // different options
+            // cyPosition.toolbar({ toolbarClass: "cy-position-toolbar", position: 'top' });
+            // cyPosition.toolbar({ toolbarClass: "cy-position-toolbar", position: 'bottom' });
+            // cyPosition.toolbar({ toolbarClass: "cy-position-toolbar", position: 'left' }); // default
+        },
+
+        // removed for brevity
+    });
+                    </code></pre>
+                    <!-- options -->
+                    <h2 id="options">Tool Options</h2>
+                    <p>Setting a tool's options gives you the ability to pass custom data or functions to the responding action.</p>
+                    <div id="cy-options" class="row cy"></div>
+                    <h4>Code</h4>
+                    <h6>HTML</h6>
+                    <pre><code class="html">
+    &lt;div id="cy-options" class="row cy"&gt;&lt;/div&gt;
+                    </code></pre>
+                    <h6>Javascript</h6>
+                    <pre><code class="javascript">
+    var cyOptions = window.cyOptions = cytoscape({
+        container: document.getElementById('cy-options'),
+
+        ready: function () {
+            cyOptions.toolbar({
+                toolbarClass: "cy-options-toolbar",
+                tools: [
+                    [
+                        {
+                            icon: 'fa fa-link',
+                            event: ['tap'],
+                            selector: 'node',
+                            // add you options to this property, check out our custom function to use.
+                            options: {
+                                helloWorld: function(isTrue) {
+                                    if (isTrue) {
+                                        return 'Hello World!';
+                                    }
+
+                                    return 'Goodbye!';
+                                }
+                            },
+                            bubbleToCore: false,
+                            tooltip: 'Link',
+                            action: [performLink]
+                        }
+                    ]
+                ],
+                appendTools: true
+            });
+        },
+
+        // removed for brevity
+    });
+
+    // linking edge tool
+    var src;
+    function performLink(e) {
+        if (!e.data.canPerform(e, performLink)) {
+            return;
+        }
+
+        if (src) {
+            tgt = e.cyTarget;
+
+            e.cy.add({
+                group: "edges",
+                data: {
+                    source: src.id(),
+                    target: tgt.id()
+                }
+            });
+
+            src.removeClass('selected-node');
+            src = undefined;
+
+            // get the selected tool passed in
+            var selectedTool = e.data.data.selectedTool;
+            // get the selected tool's options property
+            var options = e.data.getToolOptions(selectedTool);
+
+            // use our custom function!
+            alert(options.helloWorld(false));
+        } else {
+            src = e.cyTarget;
+            src.addClass('selected-node');
+
+            // get the selected tool passed in
+            var selectedTool = e.data.data.selectedTool;
+            // get the selected tool's options property
+            var options = e.data.getToolOptions(selectedTool);
+
+            // use our custom function!
+            alert(options.helloWorld(true));
+        }
+    }
+                    </code></pre>
+                </div>
+                <!-- Instructions -->
+                <div id="tutorial-instructions" class="col-md-4">
+                    <ol id="default-instructions">
+                        <li>select the <i class="fa fa-search-plus"></i> to zoom in on the graph</li>
+                        <li>select the <i class="fa fa-search-minus"></i> to zoom out of the graph</li>
+                        <li>select the <i class="fa fa-arrow-right"></i> to pan to the right</li>
+                        <li>select the <i class="fa fa-arrow-down"></i> to pan to the down</li>
+                        <li>select the <i class="fa fa-arrow-left"></i> to pan to the left</li>
+                        <li>select the <i class="fa fa-arrow-up"></i> to pan to the up</li>
+                    </ol>
+                    <ol id="simple-instructions">
+                        <li>
+                            select the <i class="fa fa-link"></i> to link two nodes together
+                            <ul>
+                                <li>this link is based on the settings of the cytoscape graph</li>
+                                <li>first node you select is the source and the second link you select is the target</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <ol id="grouped-instructions">
+                        <li>
+                            when you see a <i class="fa fa-caret-right"></i> it means that you have more options availble for that tool
+                            <ul>
+                                <li>click and hold until the entire sub-menu appears for you to select</li>
+                                <li>hover over the tool that you would like to select and release the mouse in order to select it</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.7/cytoscape.js"></script>
+<script type="text/javascript" src="helpers/code_highlighter.js"></script>
+<script type="text/javascript" src="helpers/javascript.js"></script>
+<script type="text/javascript" src="helpers/css.js"></script>
+<script type="text/javascript" src="helpers/html.js"></script>
+<script src="../cytoscape-toolbar.js"></script>
+
+<!-- defaults -->
+<script>
+    var stylesheet = [
+        {
+            selector: 'node',
+            css: {
+                'content': 'data(id)',
+                'text-halign': 'center',
+                'text-valign': 'center',
+                'background-opacity': '0'
+            }
+        },
+
+        {
+            selector: 'edge',
+            css: {
+                'target-arrow-shape': 'triangle'
+            }
+        },
+
+        // custom classes
+        {
+            selector: '.selected-node',
+            css: {
+                'border-color': '#f00',
+                'border-width': '2px'
+            }
+        }
+    ];
+
+    var elements = {
+        nodes: [
+            { data: { id: 'a' } },
+            { data: { id: 'b' } },
+            { data: { id: 'c' } },
+            { data: { id: 'd' } },
+            { data: { id: 'e' } }
+        ], 
+
+        edges: [
+            { data: { id: 'ae', weight: 1, source: 'a', target: 'e' } },
+            { data: { id: 'ab', weight: 3, source: 'a', target: 'b' } },
+            { data: { id: 'be', weight: 4, source: 'b', target: 'e' } },
+            { data: { id: 'bc', weight: 5, source: 'b', target: 'c' } },
+            { data: { id: 'ce', weight: 6, source: 'c', target: 'e' } },
+            { data: { id: 'cd', weight: 2, source: 'c', target: 'd' } },
+            { data: { id: 'de', weight: 7, source: 'd', target: 'e' } }
+        ]
+    };
+</script>
+
+<!-- cy-default script -->
+<script>
+    $(function () {
+        var cyDefault = window.cyDefault = cytoscape({
+            container: document.getElementById('cy-default'),
+
+            ready: function () {
+                cyDefault.toolbar();
+            },
+
+            style: stylesheet,
+
+            elements: elements,
+  
+            layout: {
+                name: 'circle',
+                padding: 10
+            }
+        });
+    });
+</script>
+
+<!-- cy simple script -->
+<script>
+    $(function () {
+        var cySimple = window.cySimple = cytoscape({
+            container: document.getElementById('cy-simple'),
+
+            ready: function () {
+                cySimple.toolbar({
+                    toolbarClass: "cy-simple-toolbar",
+                    tools: [
+                        [
+                            {
+                                icon: 'fa fa-link',
+                                event: ['tap'],
+                                selector: 'node',
+                                bubbleToCore: false,
+                                tooltip: 'Link',
+                                action: [performLink]
+                            }
+                        ]
+                    ],
+                    appendTools: true
+                });
+            },
+
+            style: stylesheet,
+
+            elements: elements,
+  
+            layout: {
+                name: 'circle',
+                padding: 10
+            }
+        });
+
+        // linking edge tool
+        var src;
+        function performLink(e) {
+            if (!e.data.canPerform(e, performLink)) {
+                return;
+            }
+
+            if (src) {
+                tgt = e.cyTarget;
+
+                e.cy.add({
+                    group: "edges",
+                    data: {
+                        source: src.id(),
+                        target: tgt.id()
+                    }
+                });
+
+                src.removeClass('selected-node');
+                src = undefined;
+            } else {
+                src = e.cyTarget;
+                src.addClass('selected-node');
+            }
+        }
+    });
+</script>
+
+<!-- cy-grouped script -->
+<script>
+    $(function () {
+        var cyGrouped = window.cyGrouped = cytoscape({
+            container: document.getElementById('cy-grouped'),
+
+            ready: function () {
+                cyGrouped.toolbar({
+                    toolbarClass: "cy-grouped-toolbar",
+                    tools: [
+                        [
+                            {
+                                icon: 'fa fa-search-plus',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        zoom: 0.1,
+                                        minZoom: 0.1,
+                                        maxZoom: 10,
+                                        zoomDelay: 45
+                                    }
+                                },
+                                bubbleToCore: false,
+                                tooltip: 'Zoom In',
+                                action: [performZoomIn]
+                            },
+                            {
+                                icon: 'fa fa-search-minus',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        zoom: -0.1,
+                                        minZoom: 0.1,
+                                        maxZoom: 10,
+                                        zoomDelay: 45
+                                    }
+                                },
+                                bubbleToCore: false,
+                                tooltip: 'Zoom Out',
+                                action: [performZoomOut]
+                            }
+                        ],
+                        [
+                            {
+                                icon: 'fa fa-arrow-right',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        distance: -80,
+                                    }
+                                },
+                                bubbleToCore: true,
+                                tooltip: 'Pan Right',
+                                action: [performPanRight]
+                            },
+                            {
+                                icon: 'fa fa-arrow-down',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        distance: -80,
+                                    }
+                                },
+                                bubbleToCore: true,
+                                tooltip: 'Pan Down',
+                                action: [performPanDown]
+                            },
+                            {
+                                icon: 'fa fa-arrow-left',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        distance: 80,
+                                    }
+                                },
+                                bubbleToCore: true,
+                                tooltip: 'Pan Left',
+                                action: [performPanLeft]
+                            },
+                            {
+                                icon: 'fa fa-arrow-up',
+                                event: ['tap'],
+                                selector: 'cy',
+                                options: {
+                                    cy: {
+                                        distance: 80,
+                                    }
+                                },
+                                bubbleToCore: true,
+                                tooltip: 'Pan Up',
+                                action: [performPanUp]
+                            }
+                        ]
+                    ],
+                    appendTools: false
+                });
+            },
+
+            style: stylesheet,
+
+            elements: elements,
+  
+            layout: {
+                name: 'circle',
+                padding: 10
+            }
+        });
+    });
+</script>
+
+<!-- cy-position script -->
+<script>
+    $(function () {
+        var cyPosition = window.cyPosition = cytoscape({
+            container: document.getElementById('cy-position'),
+
+            ready: function () {
+                cyPosition.toolbar({
+                    toolbarClass: "cy-position-toolbar",
+                    position: 'right'
+                });
+            },
+
+            style: stylesheet,
+
+            elements: elements,
+  
+            layout: {
+                name: 'circle',
+                padding: 10
+            }
+        });
+    });
+</script>
+
+<!-- cy simple script -->
+<script>
+    $(function () {
+        var cyOptions = window.cyOptions = cytoscape({
+            container: document.getElementById('cy-options'),
+
+            ready: function () {
+                cyOptions.toolbar({
+                    toolbarClass: "cy-options-toolbar",
+                    tools: [
+                        [
+                            {
+                                icon: 'fa fa-link',
+                                event: ['tap'],
+                                selector: 'node',
+                                options: {
+                                    helloWorld: function(isTrue) {
+                                        if (isTrue) {
+                                            return 'Hello World!';
+                                        }
+
+                                        return 'Goodbye!';
+                                    }
+                                },
+                                bubbleToCore: false,
+                                tooltip: 'Link',
+                                action: [performLink]
+                            }
+                        ]
+                    ],
+                    appendTools: true
+                });
+            },
+
+            style: stylesheet,
+
+            elements: elements,
+  
+            layout: {
+                name: 'circle',
+                padding: 10
+            }
+        });
+
+        // linking edge tool
+        var src;
+        function performLink(e) {
+            if (!e.data.canPerform(e, performLink)) {
+                return;
+            }
+
+            if (src) {
+                tgt = e.cyTarget;
+
+                e.cy.add({
+                    group: "edges",
+                    data: {
+                        source: src.id(),
+                        target: tgt.id()
+                    }
+                });
+
+                src.removeClass('selected-node');
+                src = undefined;
+
+                var selectedTool = e.data.data.selectedTool;
+                var options = e.data.getToolOptions(selectedTool);
+
+                alert(options.helloWorld(false));
+            } else {
+                src = e.cyTarget;
+                src.addClass('selected-node');
+
+                var selectedTool = e.data.data.selectedTool;
+                var options = e.data.getToolOptions(selectedTool);
+
+                alert(options.helloWorld(true));
+            }
+        }
+    });
+</script>
+
+<!-- instruction line-up -->
+<script>
+    $(function () {
+        $('#default-instructions').offset({
+            top: $('#cy-default').offset().top,
+            left: $('#default-instructions').offset().left
+        });
+
+        $('#simple-instructions').offset({
+            top: $('#cy-simple').offset().top,
+            left: $('#simple-instructions').offset().left
+        });
+
+        $('#grouped-instructions').offset({
+            top: $('#cy-grouped').offset().top,
+            left: $('#grouped-instructions').offset().left
+        });
+    });
+</script>
+
+</html>
